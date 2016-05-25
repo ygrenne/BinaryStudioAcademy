@@ -16,6 +16,7 @@ namespace BinaryStudioAcademy
             peoples.AddPeople(new People("Marta", 24));
 
             Console.WriteLine(string.Join("\n", peoples.GetPeoples()));
+            Console.WriteLine(peoples.CountPeople());
             Console.ReadLine();
         }
     }
